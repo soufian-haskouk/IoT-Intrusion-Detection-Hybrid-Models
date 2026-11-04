@@ -80,6 +80,7 @@ IoT-Intrusion-Detection-Hybrid-Models/
 Install dependencies:
 ```bash
    pip install -r requirements.txt
+```
 ---
 ## 🚀 How to Run
 Execute the training and evaluation pipeline for either model directly via Python:
