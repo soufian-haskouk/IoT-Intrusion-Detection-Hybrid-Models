@@ -54,6 +54,27 @@ A rigorous performance comparison between the two proposed architectures yielded
 * **Model H1 (LSTM + XGBoost)** demonstrates superior overall accuracy (**90.45%**) and an exceptional attack detection capability (Recall of **96.31%**), making it the optimal solution for high-security IoT applications where minimizing false negatives is critical.
 * **Model H2 (LSTM + Random Forest)** provides faster training execution (**217.8s**), serving as a reliable alternative for resource-constrained environments.
 
+## 📁 Repository Structure
+```text
+IoT-Intrusion-Detection-Hybrid-Models/
+│
+├── DATA/                   # Dataset directory (UNSW-NB15 subset)
+├── models/                 # Saved model weights (.h5, .joblib, and compressed archives)
+├── imageH1/                # Evaluation plots, confusion matrices, and ROC curves for H1
+├── imageH2/                # Evaluation plots, confusion matrices, and ROC curves for H2
+├── model_H1_LSTM_XGBoost.py# Main Python script for Model H1 training & evaluation
+├── model_H2_LSTM_RF.py     # Main Python script for Model H2 training & evaluation
+├── requirements.txt        # Required Python libraries and dependencies
+└── README.md               # Project documentation
+```
+---
+
+## 🛠️ Installation & Requirements
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/soufian-haskouk/IoT-Intrusion-Detection-Hybrid-Models.git](https://github.com/soufian-haskouk/IoT-Intrusion-Detection-Hybrid-Models.git)
+   cd IoT-Intrusion-Detection-Hybrid-Models
 ---
 ## 🚀 How to Run
 Execute the training and evaluation pipeline for either model directly via Python:
