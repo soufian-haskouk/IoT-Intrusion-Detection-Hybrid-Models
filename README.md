@@ -101,16 +101,4 @@ python model_H2_LSTM_RF.py
 ```text
    Soufian Haskouk
 ```
----
-## 📁 Repository Structure
-```text
-IoT-Intrusion-Detection-Hybrid-Models/
-│
-├── DATA/                   # Dataset directory (UNSW-NB15 subset)
-├── models/                 # Saved model weights (.h5, .joblib, and compressed archives)
-├── imageH1/                # Evaluation plots, confusion matrices, and ROC curves for H1
-├── imageH2/                # Evaluation plots, confusion matrices, and ROC curves for H2
-├── model_H1_LSTM_XGBoost.py# Main Python script for Model H1 training & evaluation
-├── model_H2_LSTM_RF.py     # Main Python script for Model H2 training & evaluation
-├── requirements.txt        # Required Python libraries and dependencies
-└── README.md               # Project documentation
+
