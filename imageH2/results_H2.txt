@@ -1,0 +1,27 @@
+
+============================================================
+  RESULTS – Model H2 : LSTM + Random Forest (UNSW-NB15)
+============================================================
+Accuracy       : 0.8703
+Precision (W)  : 0.8743
+Recall    (W)  : 0.8703
+F1-Score  (W)  : 0.8690
+Training time  : 217.8 s
+Average Prec.  : 0.9518
+
+-- Class: With Anomaly (Attack=1) --
+Precision : 0.8443
+Recall    : 0.9373
+F1-Score  : 0.8884
+
+-- Class: Without Anomaly (Normal=0) --
+Precision : 0.9112
+Recall    : 0.7882
+F1-Score  : 0.8452
+
+------------------------------------------------------------
+Selected Features (SelectKBest top 25):
+['state', 'dpkts', 'rate', 'sttl', 'dttl', 'sload', 'dload', 'dloss', 'sinpkt', 'swin', 'stcpb', 'dtcpb', 'dwin', 'tcprtt', 'ackdat', 'dmean', 'ct_srv_src', 'ct_state_ttl', 'ct_dst_ltm', 'ct_src_dport_ltm', 'ct_dst_sport_ltm', 'ct_dst_src_ltm', 'ct_src_ltm', 'ct_srv_dst', 'is_sm_ips_ports']
+------------------------------------------------------------
+LSTM extracted feature dimension : 16
+SMOTE applied                    : Yes
