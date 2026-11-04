@@ -75,6 +75,11 @@ IoT-Intrusion-Detection-Hybrid-Models/
    ```bash
    git clone [https://github.com/soufian-haskouk/IoT-Intrusion-Detection-Hybrid-Models.git](https://github.com/soufian-haskouk/IoT-Intrusion-Detection-Hybrid-Models.git)
    cd IoT-Intrusion-Detection-Hybrid-Models
+   ```
+
+Install dependencies:
+```bash
+   pip install -r requirements.txt
 ---
 ## 🚀 How to Run
 Execute the training and evaluation pipeline for either model directly via Python:
