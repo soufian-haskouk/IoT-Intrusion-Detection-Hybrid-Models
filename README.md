@@ -68,10 +68,12 @@ Run Model H2 (LSTM + Random Forest):
 
 ```text
 python model_H2_LSTM_RF.py
+```
 ---
 ## 👨‍💻 Author
-
+```text
    Soufian Haskouk
+```
 ---
 ## 📁 Repository Structure
 ```text
