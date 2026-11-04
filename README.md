@@ -55,19 +55,24 @@ A rigorous performance comparison between the two proposed architectures yielded
 * **Model H2 (LSTM + Random Forest)** provides faster training execution (**217.8s**), serving as a reliable alternative for resource-constrained environments.
 
 ---
-🚀 How to Run
+## 🚀 How to Run
 Execute the training and evaluation pipeline for either model directly via Python:
 
 Run Model H1 (LSTM + XGBoost):
 
-Bash
+```text
 python model_H1_LSTM_XGBoost.py
+---
+
 Run Model H2 (LSTM + Random Forest):
 
-Bash
+```text
 python model_H2_LSTM_RF.py
-👨‍💻 Author
-Soufian Haskouk
+---
+## 👨‍💻 Author
+
+   Soufian Haskouk
+---
 ## 📁 Repository Structure
 ```text
 IoT-Intrusion-Detection-Hybrid-Models/
