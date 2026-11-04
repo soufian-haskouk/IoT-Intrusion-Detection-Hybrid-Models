@@ -1,0 +1,23 @@
+
+============================================================
+  RESULTS – Model H1 : LSTM + XGBoost (UNSW-NB15)
+============================================================
+Accuracy       : 0.9045
+Precision (W)  : 0.9085
+Recall    (W)  : 0.9045
+F1-Score  (W)  : 0.9037
+Training time  : 282.4 s
+Average Prec.  : 0.9754
+
+-- With Anomaly (Attack=1) --
+Precision : 0.8758  |  Recall : 0.9631  |  F1 : 0.9174
+
+-- Without Anomaly (Normal=0) --
+Precision : 0.9485  |  Recall : 0.8327  |  F1 : 0.8868
+
+------------------------------------------------------------
+Selected Features (top 25):
+['state', 'dpkts', 'rate', 'sttl', 'dttl', 'sload', 'dload', 'dloss', 'sinpkt', 'swin', 'stcpb', 'dtcpb', 'dwin', 'tcprtt', 'ackdat', 'dmean', 'ct_srv_src', 'ct_state_ttl', 'ct_dst_ltm', 'ct_src_dport_ltm', 'ct_dst_sport_ltm', 'ct_dst_src_ltm', 'ct_src_ltm', 'ct_srv_dst', 'is_sm_ips_ports']
+------------------------------------------------------------
+LSTM feature vector dim : 32
+SMOTE applied           : Yes
