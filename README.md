@@ -69,6 +69,21 @@ IoT-Intrusion-Detection-Hybrid-Models/
 ```
 ---
 
+### 🔄 System Architecture Pipeline
+
+```mermaid
+graph TD
+    A[Raw UNSW-NB15 Dataset] --> B[Data Preprocessing & SelectKBest <br> (Top 25 Features)]
+    B --> C[SMOTE Class Balancing]
+    C --> D[Deep Feature Extraction <br> (LSTM Layers)]
+    
+    D --> E1[Model H1: XGBoost Classifier]
+    D --> E2[Model H2: Random Forest Classifier]
+    
+    E1 --> F1[Attack Detection / Evaluation <br> Accuracy: 90.45% | Recall: 96.31%]
+    E2 --> F2[Attack Detection / Evaluation <br> Accuracy: 87.03% | Recall: 93.73%]
+```
+
 ## 🛠️ Installation & Requirements
 
 1. Clone the repository:
